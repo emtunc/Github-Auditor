@@ -38,10 +38,10 @@ The script can be easily modified so that it can be run anywhere other than AWS 
 
 ## Screenshots
 
-![Alt text](screenshots/normal-mode.png?raw=true "Script operating in normal operational mode")
+![Alt text](cron-github-auditor-2fa/screenshots/normal-mode.png?raw=true "Script operating in normal operational mode")
 
-![Alt text](screenshots/safe-mode.png?raw=true "Script operating in safe mode")
+![Alt text](cron-github-auditor-2fa/screenshots/safe-mode.png?raw=true "Script operating in safe mode")
 
-![Alt text](screenshots/test-mode.png?raw=true "Script operating in test/dry run mode")
+![Alt text](cron-github-auditor-2fa/screenshots/test-mode.png?raw=true "Script operating in test/dry run mode")
 
-![Alt text](screenshots/github-token-permissions.png?raw=true "Github personal access token permissions")
+![Alt text](cron-github-auditor-2fa/screenshots/github-token-permissions.png?raw=true "Github personal access token permissions")
