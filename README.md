@@ -9,7 +9,7 @@ Scripts are developed in Python 3.7 and are 'ready to deploy' using basic YAML t
 ### cron-github-auditor-2fa
 
 This script is designed to enforce 2FA on Github member accounts within an Organization whilst maintaining a list of excluded accounts which for whatever reason, cannot be 2FA'd.
-The script is triggered on a schedule/cron which calls the Github API for any members within your Organization that do not have 2FA enabled. Those that don't, get removed (unless they are in the exclusion list)
+The script is triggered on a schedule/cron (every 3 hours by default) which calls the Github API for any members within your Organization that do not have 2FA enabled. Those that don't, get removed (unless they are in the exclusion list)
 
 All output is sent to a Slack channel via a Webhook.
 
@@ -38,10 +38,10 @@ The script can be easily modified so that it can be run anywhere other than AWS 
 
 ## Screenshots
 
-![Alt text](screenshots/normal-mode.png?raw=true "Script operating in normal operational mode")
+![Alt text](cron-github-auditor-2fa/screenshots/normal-mode.png?raw=true "Script operating in normal operational mode")
 
-![Alt text](screenshots/safe-mode.png?raw=true "Script operating in safe mode")
+![Alt text](cron-github-auditor-2fa/screenshots/safe-mode.png?raw=true "Script operating in safe mode")
 
-![Alt text](screenshots/test-mode.png?raw=true "Script operating in test/dry run mode")
+![Alt text](cron-github-auditor-2fa/screenshots/test-mode.png?raw=true "Script operating in test/dry run mode")
 
-![Alt text](screenshots/github-token-permissions.png?raw=true "Github personal access token permissions")
+![Alt text](cron-github-auditor-2fa/screenshots/github-token-permissions.png?raw=true "Github personal access token permissions")
