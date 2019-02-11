@@ -1,0 +1,16 @@
+service: github-auditor-2fa
+
+frameworkVersion: ">=1.2.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: python3.7
+  memorySize: 128
+  stage: prod
+  region: eu-west-1
+functions:
+  cron:
+    handler: github-auditor-2fa.find_non_compliant_users
+    name: "cloudwatch-cron-github-auditor-2fa"
+    events:
+      - schedule: rate(3 hours)
