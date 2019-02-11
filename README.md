@@ -32,6 +32,11 @@ The script has been designed to be deployed and run on AWS Lambda. You should be
 
 The script has been developed and tested on Python 3.7. It'll probably be fine on other versions but it's not something I have tested at this point in time.
 
+Here is a very high level overview of the architecture:
+
+![Alt text](cron-github-auditor-2fa/screenshots/high-level-overview.png?raw=true "High-level overview")
+
+
 ### EC2/Physical/etc
 
 The script can be easily modified so that it can be run anywhere other than AWS Lambda - I just haven't got around to making the modifications yet. If it's something you'd like to see then please raise an issue on Github and I'll get around to it!
